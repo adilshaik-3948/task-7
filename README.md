@@ -17,7 +17,7 @@ Display results using print() and a basic bar chart
 
 The dataset is stored in a SQLite database file called sales_data.db, which contains a single table: sales.
 
-### Sample Table Schema:
+### Sample Table Schema
 sql
 CREATE TABLE sales (
     product TEXT,
@@ -39,4 +39,7 @@ Jupyter Notebook (.ipynb)
 5.Print the DataFrame
 6.Plot a bar chart of revenue by product using matplotlib
 
-
+## Output
+Printed Table of sales summary
+Bar Chart showing revenue per product
+Chart saved as sales_chart_pretty.png
